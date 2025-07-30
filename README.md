@@ -59,6 +59,15 @@ cd client
 python Client.py
 ```
 
+## Acceso a la Base de Datos en la Nube
+
+Puedes conectarte a la base de datos PostgreSQL en la nube usando el siguiente comando en la terminal:
+
+```sh
+psql "host=ep-late-block-aexe6fi4-pooler.c-2.us-east-2.aws.neon.tech port=5432 dbname=neondb user=neondb_owner password=npg_Vk4JwKGiTeF3 sslmode=require"
+```
+
+Esto abrirá una sesión interactiva de PostgreSQL conectada a la base de datos remota.
 ## Funcionalidades
 
 - Registrar compras y ventas de autos
@@ -74,4 +83,3 @@ python Client.py
 
 ---
 
-¡Listo para usar tu sistema
